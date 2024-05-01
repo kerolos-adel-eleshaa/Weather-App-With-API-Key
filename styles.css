@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+#weather-info {
+  margin-top: 20px;
+}
+
+/* تحسينات لتأثيرات CSS */
+#app button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#app button:hover {
+  background-color: #0056b3;
+}
+
+#favorite-cities {
+  margin-top: 30px;
+}
+
+#city-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#city-list li {
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: #3366cc;
+}
+
+#city-list li:hover {
+  text-decoration: underline;
+}
